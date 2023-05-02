@@ -1,46 +1,15 @@
-*TODO*: Please edit the following information in your final project
-
 ## Title: Procedural City of Cubes
 
 ## YouTube/Dropbox/Drive Link: https://youtu.be/nI7hgpsgNhI
+
+## Description
+The goal of this project was to recreate a program I found: [Shamus Young's Pixel City](https://www.youtube.com/watch?v=-d2-PtK4F6Y). I created my own data representation for three-dimensional buildings (explained in the video above) and rendered it into a navigable 3D scene using OpenGL and SDL2. Shaders for the program were also implemented from scratch using GLSL. There is still plenty of room for improvement, and as I have time in the future, I plan on adding more features, including higher graphical fidelity, more complex city organization, and an alternative data representation that allows for more unique buildings.
+
+## Acknowledgements
+- The project was create with support code provided in a course by Mike Shah from Northeastern. Several classes relating to the basic graphical engine were completed by me using code provided in various assignments.
+- The GLM library is used to handle the linear-algebra-related math due to its close semantics to GLSL.
 
 ## Screenshots:
 * <img src="Screenshot 2022-12-13 193514.png">
 * <img src="Screenshot 2022-12-13 193558.png">
 * <img src="Building Map Example 6.png"> <img src="Untitled drawing.png">
-
-
-* Name and partners name(At most teams of 2 folks total)
-  * Team member 1: Damon Mack
-  * Team member 2: N/A
-* How many hours did it take you to complete this final project? 12 (so far)
-* Did you collaborate or share ideas with any other students/TAs/Professors?
-* Did you use any external resources? 
-  * Note it is fair to utilize some tutorials--cite them here. You **must** add your own personal touch however!
-  * *edit this*
-  * *edit this*
-  * *edit this*
-  * (Optional) What was the most interesting part of the Final Assignment? How could the instructor improve the final project?
-
-### Rubric
-
-<table>
-  <tbody>
-    <tr>
-      <th>Points</th>
-      <th align="center">Description</th>
-    </tr>
-    <tr>
-      <td>(33.3%) Project Completion</td>
-     <td align="left"><ul><li>Does the project compile and run.</li><li>Is it polished without any bugs (No weird visual artifacts).</li><li>Did you make a video?</li><li>Did you add a screenshot of your project to the repository?</li></ul></td>
-    </tr>
-    <tr>
-      <td>(33.3%) Technical</td>
-      <td align="left"><ul><li>Was the implementation of the project challenging?</li><li>Even if you followed a tutoral, it should not be trivial, and have some personal touch to it.</li><li>Did you have to organize/process a sufficient amount of data?</li><li>Was it clear you consulted some outside resources that go above and beyond the scope of this class</li></ul></td>
-    </tr>
-    <tr>
-      <td>(33.4%) Creativity</td>
-      <td align="left"><ul><li>How visually appealing is the scene?<ul><li>Note: There should be some 'wow' factor--instructors discretion is used here.</li></ul></li><li>How original is the project<ul><li>Again, did you enhance a tutorial and do something unique or just go by the book?</li></ul></li></ul></td>
-    </tr>
-  </tbody>
-</table>
